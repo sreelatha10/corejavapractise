@@ -1,6 +1,7 @@
 package com.ja.datatypes;
 
 public class DatatypesEx1 {
+
     static long l=6;
 
     float f=5f;

@@ -10,7 +10,7 @@ public class DatatypesEx1 {
         System.out.println(i);
 
 
-        //classname ref=new classname();
+
         DatatypesEx1 ex1=new DatatypesEx1();
         System.out.println(ex1.f);
         System.out.println(DatatypesEx1.l);

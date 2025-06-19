@@ -1,3 +1,4 @@
+
 package com.ja.datatypes;
 
 public class DatatypesEx2 {

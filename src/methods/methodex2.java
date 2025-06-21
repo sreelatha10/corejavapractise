@@ -2,6 +2,7 @@ package methods;
 
 public class methodex2 {
     String name = "bulb";
+
      int cost = 5;
 
     public void display(String n, int c) {

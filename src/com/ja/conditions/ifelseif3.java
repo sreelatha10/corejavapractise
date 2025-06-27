@@ -2,10 +2,12 @@ package com.ja.conditions;
 
 public class ifelseif3 {
     public static void main(String[] args) {
-        int speed = 78;
-
-
-        if (speed <= 40) {
+        int balance = 5000;
+        int withdraw = 2300;
+        int amount;
+        int speed = 0;
+        
+        if (withdraw % 100 <= 40) {
             System.out.println("very slow - speed up");
         } else if (speed <= 60) {
             System.out.println("safe speed");

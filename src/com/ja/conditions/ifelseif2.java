@@ -15,3 +15,4 @@ public class ifelseif2 {
         }
     }
 }
+//encapsulation practice avu evneing explain chesta ok

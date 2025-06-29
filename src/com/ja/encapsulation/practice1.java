@@ -4,6 +4,7 @@ class practice1 {
     private String name;
    private int rollnumber;
    private double marks;
+
    public String getName() {
      return name;
    }

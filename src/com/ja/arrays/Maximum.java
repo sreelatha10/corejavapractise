@@ -10,14 +10,14 @@ public class Maximum {
         marks[4] = 66;
         marks[5] = 7;
         marks[6] = 8;
-        int max = marks[0];
+        int min = marks[0];
 
         for (int i = 0; i < marks.length; i++) {
-            if (marks[i] > max) {
-                max = marks[i];
+            if (marks[i] < min) {
+                min = marks[i];
             }
         }
-            System.out.println("maximum value = " + max);
+            System.out.println("maximum value = " + min);
 
     }
 }

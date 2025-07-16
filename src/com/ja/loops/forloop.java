@@ -1,10 +1,15 @@
 package com.ja.loops;
 
 public class forloop {
-    public static void main(String[] args) {
+    void printsum(int a,int b){
+        int sum = a+b;
+        System.out.println("sum = " + sum);
+    }
 
-        for ( int i = 1; i <= 10; i++) {
-            System.out.println("9 * " + i + " = " + (9 * i));
-        }
+    public static void main(String[] args) {
+        forloop abc = new forloop();
+        abc.printsum(3,6);
     }
 }
+
+

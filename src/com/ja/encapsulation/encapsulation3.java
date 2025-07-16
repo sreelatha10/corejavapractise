@@ -25,16 +25,12 @@ public class encapsulation3 {
             System.out.println("invalid age");
         }
     }
-
     public char getgrade() {
         return grade;
     }
-
     public void setGrade(char grade) {
         if (grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D' || grade == 'F') {
             this.grade = grade;
-
-
         } else {
             System.out.println("print invalid grade" + "");
         }

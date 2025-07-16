@@ -2,6 +2,7 @@ package com.ja.inheritance;
 
     class Animal {
         void eat() {
+
             System.out.println("Animal eats");
         }
     }
@@ -12,6 +13,8 @@ package com.ja.inheritance;
     }
     class Puppy extends Dog {
         void weep() {
+
+
             System.out.println("Puppy weeps");
         }
     }

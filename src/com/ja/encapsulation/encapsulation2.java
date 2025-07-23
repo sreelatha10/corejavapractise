@@ -1,6 +1,7 @@
 package com.ja.encapsulation;
 
-public class encapsulation2 {
+public class
+encapsulation2 {
     public static void main(String[] args) {
         encapsulation1 ed = new encapsulation1();
         ed.setName("sreelatha");
